@@ -7,7 +7,7 @@ function About(props) {
       <h2>About Me</h2>
       {props.bio != null && props.bio != "" ? <p>{props.bio}</p> : null}
       <img src="https://i.imgur.com/mV8PQxj.gif" alt="I made this" />
-      <Links githubLink = {props.github} linkedinLink ={props.linkedin}/>
+      <Links githubLink = {props.github} linkedinLink = {props.linkedin}/>
     </div>
   );
 }
